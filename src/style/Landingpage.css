@@ -1,0 +1,61 @@
+.myBG{
+    height: 140vh;
+    background: url("/src/assets/img/bg/xx.jpg");
+    background-size: cover;
+}
+.intro{
+    height: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.titleNav{
+    text-emphasis-color: white;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 3px;
+}
+.trending{
+    height: auto;
+    background: url("/src/assets/img/bg/xxxx.jpg");
+    background-position: 100%;
+    background-size: cover;  
+}
+
+.photoModel{
+    height: auto;
+    background: url("/src/assets/img/bg/daunbg.jpg");
+    background-position: 100%;
+    background-size: cover;  
+}
+.photoWedding{
+    height: auto;
+    background: url("/src/assets/img/bg/jendelabg.jpg");
+    background-position: 100%;
+    background-size: cover; 
+}
+.photoGroup{
+    height: auto;
+    background: url("/src/assets/img/bg/lamp.jpg");
+    background-position: 100%;
+    background-size: cover; 
+}
+
+
+.movieImage{
+    height: auto;
+    background-color: black;
+    margin: 25px;
+    padding: 5px;
+}
+
+
+.movieWrapper{
+
+}
