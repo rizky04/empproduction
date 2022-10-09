@@ -42,7 +42,7 @@
 }
 .photoGroup{
     height: auto;
-    background: url("/src/assets/img/bg/lamp.jpg");
+    background: url("/src/assets/img/bg/angsabg.jpg");
     background-position: 100%;
     background-size: cover; 
 }
@@ -58,4 +58,23 @@
 
 .movieWrapper{
 
+}
+
+.Footer{
+    height: 250px;
+    background-color: black;
+}
+.textFooter{
+    color: white;
+    text-align: center;
+}
+
+.Logo{
+    height: 200px;
+    weight: 200px;
+}
+
+.LogoFooter{
+    height: 70px;
+    weight: 70px;
 }

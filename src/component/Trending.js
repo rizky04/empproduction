@@ -16,7 +16,7 @@ const Trending = () => {
                 <h1 className='text-white'>PHOTO PRODUCT</h1>
                 <br />
                 <Row>
-                    <Col md={4} className='movieWrapper md-3'>
+                    <Col md={4} className='movieWrapper md-3' id='photoproduct'>
                         <Card className="text-white movieImage">
                             <Card.Img src={product1} alt="Card image" />
                         </Card>

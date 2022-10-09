@@ -12,7 +12,7 @@ const PhotoWedding = () => {
                 <h1 className='text-white'>PHOTO WEDDING</h1>
 
                 <Row>
-                    <Col md={4} className='movieWrapper md-3'>
+                    <Col md={4} className='movieWrapper md-3' id='photowedding'>
                         <Card className="text-white movieImage">
                             <Card.Img src={wd1} alt="Card image" />
                         </Card>

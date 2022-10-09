@@ -7,17 +7,20 @@ const Navigation = () => {
             <Navbar variant="light">
                 <Container>
                     <Nav className="justify-content-center">
-                        <NavLink className="text-white">
+                        <NavLink href="#photoproduct" className="text-white">
                             Product
                         </NavLink >
-                        <NavLink className="text-white">
+                        <NavLink href="#photomodel" className="text-white">
                             Model
                         </NavLink>
-                        <NavLink className="text-white">
+                        <NavLink href="#photogroup" className="text-white">
                             Group
                         </NavLink>
-                        <NavLink className="text-white">
+                        <NavLink href="#photowedding" className="text-white">
                             Wedding
+                        </NavLink>
+                        <NavLink href="#photocouple" className="text-white">
+                            Couple
                         </NavLink>
                     </Nav>
                 </Container>

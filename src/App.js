@@ -1,10 +1,12 @@
 import './App.css';
+import Footer from './component/Footer';
 import Intro from './component/Intro';
 import Navigation from './component/Navigation';
 import PhotoGroup from './component/PhotoGroup';
 import PhotoModels from './component/PhotoModels';
 import PhotoWedding from './component/PhotoWedding';
 import Trending from './component/Trending';
+import PhotoCouple from './component/PhotoCouple';
 import './style/Landingpage.css';
 
 function App() {
@@ -30,6 +32,14 @@ function App() {
       <div className='photoGroup'>
         <PhotoGroup />
       </div>
+      <div className='photoGroup'>
+        <PhotoCouple />
+      </div>
+
+      <div className='Footer'>
+        <Footer />
+      </div>
+
 
 
     </div>

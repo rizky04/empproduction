@@ -15,7 +15,7 @@ const PhotoModels = () => {
                 <h1 className='text-white'>PHOTO MODEL</h1>
 
                 <Row>
-                    <Col md={4} className='movieWrapper md-3'>
+                    <Col md={4} className='movieWrapper md-3' id='photomodel'>
                         <Card className="text-white movieImage">
                             <Card.Img src={md1} alt="Card image" />
                         </Card>
